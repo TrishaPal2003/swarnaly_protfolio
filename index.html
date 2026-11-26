@@ -1,27 +1,49 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Swarnaly Paul | Portfolio</title>
-  <meta name="description" content="Portfolio of a Computer Science and Engineering student learning web development.">
+  <meta name="description" content="Portfolio of Swarnaly Paul, a CSE student learning programming and web development.">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
+  <!-- Header -->
   <header class="site-header">
     <div class="wrap header-inner">
-      <a class="brand" href="#top">Swarnaly Paul</a>
-      <nav aria-label="Main">
+
+      <a class="brand" href="#top">Swarnaly Paul<span>.</span></a>
+
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="mainNav"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="main-nav" id="mainNav" aria-label="Main navigation">
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
         <a href="#education">Education</a>
         <a href="#contact">Contact</a>
       </nav>
+
     </div>
   </header>
 
@@ -29,14 +51,22 @@
 
     <!-- Hero -->
     <section class="hero wrap">
+
       <div class="hero-text">
-        <p class="hero-kicker">Computer Science and Engineering, 5th semester</p>
-        <h1>Hi, I'm Swarnaly Paul. I'm learning to build for the web.</h1>
+        <p class="hero-kicker">Computer Science & Engineering · 5th Semester</p>
+
+        <h1>
+          Hi, I'm Swarnaly Paul.
+          <span>I'm learning to build for the web.</span>
+        </h1>
+
         <p class="hero-lead">
-          I am a CSE student building my foundation in programming and web development.
-          I am looking for an internship where I can learn from a team and contribute with
-          careful, honest work.
+          I am a CSE student building my foundation in programming
+          and web development. I am looking for an internship where
+          I can learn from a team and contribute with careful,
+          honest work.
         </p>
+
         <div class="hero-actions">
           <a class="btn btn-solid" href="#contact">Contact me</a>
           <a class="btn btn-line" href="#projects">See my work</a>
@@ -44,33 +74,48 @@
       </div>
 
       <figure class="hero-photo">
-        <!-- Put the photo in the same folder and name it photo.jpg -->
-        <img src="swarnaly.jpeg" alt="Portrait of Your Name" width="480" height="560">
+        <img
+          src="swarnaly.jpeg"
+          alt="Portrait of Swarnaly Paul"
+          width="480"
+          height="560"
+        >
       </figure>
+
     </section>
 
     <!-- About -->
     <section class="section wrap" id="about">
+
       <h2>About me</h2>
+
       <div class="about-grid">
         <p>
-          I am a 5th semester student at CCN University of Science and Technology. So far I have learned the basics of
-          programming, data structures, and web pages. I enjoy turning a small idea into something
-          that works in the browser.
+          I am a 5th semester student at CCN University of Science
+          and Technology. So far I have learned the basics of
+          programming, data structures, and web pages. I enjoy
+          turning a small idea into something that works in the browser.
         </p>
+
         <p>
-          I am not an expert yet, and I do not pretend to be. I learn by building small projects,
-          reading documentation, and fixing my own mistakes. I want to get better every week.
+          I am not an expert yet, and I do not pretend to be.
+          I learn by building small projects, reading documentation,
+          and fixing my own mistakes. I want to get better every week.
         </p>
       </div>
+
     </section>
 
     <!-- Skills -->
     <section class="section wrap" id="skills">
+
       <h2>Skills</h2>
+
       <div class="skills-grid">
+
         <div class="skill-group">
           <h3>Comfortable with the basics</h3>
+
           <ul class="tags">
             <li>HTML</li>
             <li>CSS</li>
@@ -78,8 +123,10 @@
             <li>Git basics</li>
           </ul>
         </div>
+
         <div class="skill-group">
           <h3>Learning now</h3>
+
           <ul class="tags tags-soft">
             <li>JavaScript</li>
             <li>Python</li>
@@ -87,70 +134,149 @@
             <li>Responsive design</li>
           </ul>
         </div>
+
         <div class="skill-group">
           <h3>Next on my list</h3>
+
           <ul class="tags tags-soft">
             <li>React</li>
             <li>Databases (SQL)</li>
-            <li>Problem solving practice</li>
+            <li>Problem solving</li>
           </ul>
         </div>
+
       </div>
     </section>
 
     <!-- Projects -->
     <section class="section wrap" id="projects">
+
       <h2>Projects</h2>
+
       <div class="projects-grid">
+
         <article class="project">
+          <div class="project-number">01</div>
+
           <h3>Personal Portfolio</h3>
-          <p>The website you are looking at. Built with plain HTML and CSS, and designed to work on phones and laptops.</p>
-          <p class="project-tech">HTML, CSS</p>
-          <a href="#" class="project-link">View source on GitHub</a>
+
+          <p>
+            My personal portfolio website built using HTML and CSS.
+            It showcases my skills, education, and projects with
+            a responsive design.
+          </p>
+
+          <p class="project-tech">HTML · CSS · JavaScript</p>
+
+          <a href="#" class="project-link">
+            View source on GitHub ↗
+          </a>
         </article>
+
         <article class="project">
+          <div class="project-number">02</div>
+
           <h3>Smart Canteen</h3>
-          <p>Write what the project does and what problem it solves. Mention one thing you learned while building it.</p>
-          <p class="project-tech">HTML, CSS</p>
-          <a href="https://smart-canteen-lake.vercel.app/" class="project-link">View project</a>
+
+          <p>
+            A web-based canteen project designed to help users
+            explore food items and interact with a digital canteen
+            ordering experience.
+          </p>
+
+          <p class="project-tech">HTML · CSS</p>
+
+          <a
+            href="https://smart-canteen-lake.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="project-link"
+          >
+            View project ↗
+          </a>
         </article>
+
       </div>
     </section>
 
     <!-- Education -->
     <section class="section wrap" id="education">
+
       <h2>Education</h2>
+
       <ol class="timeline">
+
         <li>
-          <p class="timeline-date">2024 to present</p>
+          <p class="timeline-date">2024 – Present</p>
+
           <h3>B.Sc. in Computer Science and Engineering</h3>
-          <p>CCN University of Science and Technology, currently in the 5th semester. Relevant courses: Programming, Data Structures, Discrete Mathematics.</p>
+
+          <p>
+            CCN University of Science and Technology
+            <br>
+            Currently in the 5th semester.
+            <br>
+            Relevant courses: Programming, Data Structures,
+            Discrete Mathematics.
+          </p>
         </li>
+
         <li>
-          <p class="timeline-date">Before university</p>
+          <p class="timeline-date">Before University</p>
+
           <h3>Higher Secondary Certificate (HSC)</h3>
-          <p>Mia Bazar college</p>
+
+          <p>Mia Bazar College</p>
         </li>
+
       </ol>
     </section>
 
     <!-- Contact -->
     <section class="section wrap contact" id="contact">
+
       <h2>Contact</h2>
-      <p class="contact-lead">I am open to internships and learning opportunities. Send me a short message and I will reply within two days.</p>
-      <a class="btn btn-solid" href="mailto:youremail@example.com">eshanpal378@gmail.com</a>
+
+      <p class="contact-lead">
+        I am open to internships and learning opportunities.
+        Send me a message and I will reply as soon as possible.
+      </p>
+
+      <a class="btn btn-solid" href="mailto:eshanpal378@gmail.com">
+        Send me an email
+      </a>
+
       <ul class="contact-links">
-        <li><a href="#">GitHub</a></li>
+        <li>
+          <a href="https://github.com/swarnaly000" target="_blank" rel="noopener noreferrer">
+            GitHub ↗
+          </a>
+        </li>
       </ul>
+
     </section>
 
   </main>
 
+  <!-- Back to top -->
+  <button
+    class="back-to-top"
+    id="backToTop"
+    aria-label="Back to top"
+    title="Back to top"
+  >
+    ↑
+  </button>
+
+  <!-- Footer -->
   <footer class="site-footer">
-    <div class="wrap">
-      <p>&copy; 2026 Your Name. Built with HTML and CSS.</p>
+    <div class="wrap footer-inner">
+      <p>© <span id="currentYear"></span> Swarnaly Paul.</p>
+      <p>Built with HTML, CSS & JavaScript.</p>
     </div>
   </footer>
+
+  <script src="script.js"></script>
 
 </body>
 </html>
